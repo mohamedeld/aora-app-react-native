@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 
 const HomePage = () => {
   return (
-    <View className='flex-1 items-center flex justify-center'>
+    <View className='flex-1 items-center flex justify-center font-pblack'>
       <Text>HomePage</Text>
       <Link href={"/profile"}>Profile</Link>
     </View>
