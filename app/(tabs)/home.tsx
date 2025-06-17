@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native'
 
-const HomePage = () => {
+const HomeTabPage = () => {
   return (
     <View>
       <Text>HomePage</Text>
@@ -8,5 +8,5 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default HomeTabPage
 

@@ -1,13 +1,14 @@
 import { Link } from 'expo-router'
-import { Text, View } from 'react-native'
+import { StatusBar, Text, View } from 'react-native'
 
-const HomePage = () => {
+const App = () => {
   return (
     <View className='flex-1 items-center flex justify-center font-pblack'>
       <Text>HomePage</Text>
-      <Link href={"/profile"}>Profile</Link>
+      <Link href="/(tabs)/bookmark">Book mark</Link>
+      <StatusBar barStyle={"default"} />
     </View>
   )
 }
 
-export default HomePage
+export default App
